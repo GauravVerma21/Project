@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@media (max-width: 1024px) {
+  nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Hide the desktop search bar on tablets & smaller screens */
+  .desktop-search {
+    display: none;
+  }
+
+  /* Adjust the cart and profile icons */
+  .cart-icon,
+  .profile-icon {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
+/* Mobile Menu (for screens below 768px) */
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  /* Hide the desktop navbar */
+  .desktop-menu {
+    display: none;
+  }
+
+  /* Ensure the logo is centered */
+  .logo {
+    margin: 0 auto;
+  }
+
+  /* Make search bar full width inside the mobile menu */
+  .mobile-search {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+  
